@@ -4,8 +4,6 @@ import styles from './Start.module.css';
 import { Link } from 'react-router-dom';
 
 
-
-
 export const Start = ({shuffleCards}) => {
     
     return (

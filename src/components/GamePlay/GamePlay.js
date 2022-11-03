@@ -4,7 +4,6 @@ import { Link, useNavigate} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import styles from './GamePlay.module.css';
 
-
 import { Card } from './Card';
 
 export const GamePlay = ({cards, setCards, setTurns, turns, score, setScore }) => {
