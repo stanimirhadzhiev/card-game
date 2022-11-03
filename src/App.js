@@ -41,8 +41,6 @@ function App() {
     setTurns(0)
     setScore(0)
   };
-
-
   
   useEffect(() => {
     shuffleCards()
