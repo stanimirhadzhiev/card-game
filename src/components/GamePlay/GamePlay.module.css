@@ -1,0 +1,66 @@
+.main{
+  background-image: url(../../../public/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110%;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.results {
+  width: 15%;
+  height: 80px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 8px 9px rgba(0, 0, 0, 0.43);
+  border-radius: 0px 0px 20px 0px;
+  text-align: center;   
+}
+
+.resultsText {
+  width: 164px;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+}
+  
+.restart {
+  width: 7%;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 8px 9px rgba(0, 0, 0, 0.43);
+  border-radius: 0px 0px 0px 20px;
+  text-align: center;
+}
+
+.restart img {
+  margin-top: 10px;
+}
+
+.cardBox {
+  width: 70%;
+  height: 60%;
+  margin-bottom: 20px;
+  margin: auto;
+  margin-top: 122px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 8px 9px rgba(0, 0, 0, 0.43);
+  border-radius: 10px;
+}
+
+.cardBox .cardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: content;
+  padding: 40px;
+}
+  
